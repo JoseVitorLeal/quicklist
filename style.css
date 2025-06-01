@@ -185,3 +185,8 @@ main {
     transform: translateY(0);
     transition: opacity .4s ease, transforn .4s ease;
 }
+
+.hide-warning {
+    opacity: 0;
+    transform: translateY(-10px);
+}
