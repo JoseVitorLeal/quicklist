@@ -126,5 +126,33 @@ main {
             gap: 1.2rem;
             align-items: center;
         }
+
+        input {
+            display: none;
+        }
+
+        .custom-checkbox {
+            width: 1.6rem;
+            height: 1.6rem;
+            border: 1px solid var(--border-primary);
+            border-radius: .6rem;
+            cursor: pointer;
+        }
+
+        label {
+            cursor: pointer;
+        }
+
+        div:has(input:checked){
+            .custom-checkbox {
+                background: var(--color-brand);
+                border: 1px solid var(--color-brand);
+                transition: background .2s ease;
+            }
+
+            label {
+                text-decoration: line-through;
+            }
+        }    
     }
 }
