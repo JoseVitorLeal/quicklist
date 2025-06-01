@@ -20,3 +20,24 @@
   --border-primary: #D1D5DB;
   --border-hover: #B9C2D0;
 }
+
+body {
+    font-size: 1.6 rem;
+    padding: 3.2 rem;
+    background-color: var(--background-primary);
+}
+
+header {
+    margin-bottom: 4.4 rem;
+    max-width: 62.7 rem;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    img {
+        width: 15.4 rem;
+        margin-inline: auto;
+        margin-bottom: 3 rem;
+    }
+}
